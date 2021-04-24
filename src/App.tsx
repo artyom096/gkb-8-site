@@ -1,26 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from './components/Header/Header';
+import { Nav } from './components/Nav/Nav';
+import { Footer } from './components/Footer/Footer';
+import { Route, Switch } from 'react-router';
+import { Home } from './pages/Home';
+import { About } from './pages/About/About';
+import { Story } from './pages/Story/Story';
+import { Education } from './pages/Education/Education';
+import { Documents } from './pages/Documents/Documents';
+import { NewsPage } from './pages/NewsPage/NewsPage';
+import { Information } from './pages/Information/Information';
+import { Articles } from './pages/Articles/Articles';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//Избавиться от ебучего хардкода
+//Исправить адаптив на слайдерах
+//Прописать медиазапросы
+
+export default function App() {
+	return (
+		<div>
+			<Header />
+			<Nav />
+			<Switch>
+				<Route exact path="/" component={Home} />
+				<Route exact path="/about" component={About} />
+				<Route exact path="/story" component={Story} />
+				<Route exact path="/education" component={Education} />
+				<Route exact path="/documents" component={Documents} />
+				<Route exact path="/news" component={NewsPage} />
+				<Route exact path="/information" component={Information} />
+				<Route exact path="/articles" component={Articles} />
+			</Switch>
+			<Footer />
+		</div>
+	);
 }
-
-export default App;

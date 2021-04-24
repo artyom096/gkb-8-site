@@ -1,0 +1,62 @@
+.title {
+	text-align: center;
+	margin: 70px 40px;
+	height: 300px;
+
+	h3 {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		font-weight: bold;
+		border-bottom: 2px solid #008b8b;
+		width: 350px;
+	}
+
+	img {
+		height: 250px;
+	}
+
+	.cart {
+		position: relative;
+		.subtitle {
+			color: white;
+			position: absolute;
+			top: 75%;
+			left: 0;
+			background-color: #008b8b;
+			opacity: 0.8;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 15px;
+			overflow: hidden;
+
+			b {
+				border-bottom: 2px solid white;
+				opacity: 1;
+				font-weight: 400;
+				font-size: 19px;
+			}
+
+			p {
+				opacity: 0;
+				text-align: left;
+				padding: 0 20px;
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.cart:hover {
+		.subtitle {
+			top: 0;
+			height: 100%;
+			opacity: 1;
+			transition: all 0.4s ease;
+
+			p {
+				opacity: 1;
+				transition: opacity 0.5s ease-in;
+			}
+		}
+	}
+}

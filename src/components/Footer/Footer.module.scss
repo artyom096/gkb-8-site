@@ -1,0 +1,94 @@
+.wrapper {
+	color: honeydew;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 40px;
+	background-image: url('../../assets/gray-bcg.jpg');
+	background-size: cover;
+	height: 60vh;
+	display: flex;
+
+	.contacts {
+		width: 30%;
+		padding: 20px 50px;
+		font-size: 16px;
+		h3 {
+			text-transform: uppercase;
+			border-bottom: 2px solid #fff;
+			width: 150px;
+			text-align: center;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			color: honeydew;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-size: 1.5rem;
+		}
+
+		.icons {
+			display: flex;
+			align-items: center;
+
+			span {
+				font-size: 30px;
+			}
+
+			p {
+				margin-left: 10px;
+				margin-top: 15px;
+				font-size: 18px;
+			}
+		}
+	}
+
+	.about {
+		width: 70%;
+		padding: 20px 50px;
+		font-size: 16px;
+		h3 {
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			border-bottom: 2px solid #fff;
+			width: 150px;
+			text-align: center;
+			margin: 0 auto;
+			color: honeydew;
+			font-family: 'Roboto Condensed', sans-serif;
+			margin-bottom: 20px;
+		}
+
+		.icons {
+			display: flex;
+
+			span {
+				font-size: 30px;
+			}
+
+			p {
+				margin-left: 10px;
+				font-size: 18px;
+			}
+		}
+
+		button {
+			text-align: center;
+			padding: 8px 25px;
+			border: none;
+			border-radius: 10px;
+			display: flex;
+			margin: 0 auto;
+
+			a {
+				color: black;
+				text-decoration: none;
+			}
+		}
+
+		button:hover {
+			background-color: rgb(119, 119, 119);
+			transition: all 0.4s ease;
+
+			a {
+				color: white;
+			}
+		}
+	}
+}

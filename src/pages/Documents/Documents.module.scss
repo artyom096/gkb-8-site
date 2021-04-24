@@ -1,0 +1,22 @@
+.wrapper {
+	margin: 0 60px;
+	h4 {
+		margin: 30px auto;
+		margin-bottom: 30px;
+		font-weight: bold;
+		border-bottom: 2px solid #008b8b;
+		width: 350px;
+		text-align: center;
+		font-size: 1.75rem;
+		text-transform: uppercase;
+	}
+
+	.links {
+		display: flex;
+		flex-direction: column;
+
+		a {
+			margin: 2px 0;
+		}
+	}
+}

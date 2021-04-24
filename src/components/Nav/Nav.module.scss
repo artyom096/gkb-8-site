@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+	position: sticky;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	background-color: #008b8b;
+
+	.list {
+		width: 90%;
+		display: flex;
+		margin: 0 auto;
+		position: relative;
+		list-style: none;
+		padding: 0;
+		height: 40px;
+		color: #fff;
+		font-size: 15px;
+		text-transform: uppercase;
+		align-items: center;
+
+		li {
+			padding: 11px;
+			border-left: 1px solid #fff;
+			border-right: 1px solid #fff;
+			width: 100%;
+			text-align: center;
+			cursor: pointer;
+			height: 100%;
+			display: flex;
+			align-items: center;
+
+			a {
+				text-decoration: none;
+				color: white;
+			}
+
+			.listHiddenOrders {
+				margin-left: -12px;
+				display: none;
+				list-style: none;
+				position: absolute;
+				z-index: 10;
+				top: 100%;
+				background-color: #008b8b;
+				padding: 0;
+
+				li:first-child {
+					border-bottom: 1px solid #fff;
+					border-top: 1px solid #fff;
+					border-left: 1px solid #fff;
+				}
+
+				li {
+					border-bottom: 1px solid #fff;
+				}
+
+				li:last-child {
+					border-bottom: 1px solid #fff;
+					border-right: 1px solid #fff;
+				}
+			}
+
+			.listHiddenAbout {
+				margin-left: -12px;
+				display: none;
+				list-style: none;
+				position: absolute;
+				z-index: 10;
+				top: 100%;
+				background-color: #008b8b;
+				padding: 0;
+
+				li:first-child {
+					border-bottom: 1px solid #fff;
+					border-top: 1px solid #fff;
+					border-left: 1px solid #fff;
+				}
+
+				li {
+					border-bottom: 1px solid #fff;
+				}
+
+				li:last-child {
+					border-bottom: 1px solid #fff;
+					border-right: 1px solid #fff;
+				}
+			}
+			.listHiddenClients {
+				min-width: 15%;
+				margin-left: -12px;
+				display: none;
+				list-style: none;
+				position: absolute;
+				z-index: 10;
+				top: 100%;
+				background-color: #008b8b;
+				padding: 0;
+
+				li:first-child {
+					border-bottom: 1px solid #fff;
+					border-top: 1px solid #fff;
+					border-left: 1px solid #fff;
+				}
+
+				li {
+					border-bottom: 1px solid #fff;
+				}
+
+				li:last-child {
+					border-bottom: 1px solid #fff;
+					border-right: 1px solid #fff;
+				}
+			}
+
+			&:first-child {
+				border-left: 1.5px solid #fff;
+				border-right: 1px solid #fff;
+			}
+
+			&:last-child {
+				border-left: 1px solid #fff;
+				border-right: 1.5px solid #fff;
+			}
+
+			&:hover {
+				background-color: #fc7e23fe;
+				transition: 150ms linear;
+				height: 100%;
+			}
+
+			a {
+				width: 100%;
+			}
+		}
+		li:hover {
+			.listHiddenAbout {
+				cursor: pointer;
+				display: flex;
+				flex-direction: column;
+			}
+
+			.listHiddenClients {
+				cursor: pointer;
+				display: flex;
+				flex-direction: column;
+			}
+
+			.listHiddenOrders {
+				cursor: pointer;
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+}
