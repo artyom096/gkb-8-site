@@ -22,6 +22,9 @@ export const Documents: React.FC = () => {
 				<a target="_blank" href="https://gkbe.ru/wp-content/uploads/2021/03/ROIV_otvety_kovid.pdf">
 					Ответы на часто задаваемые вопросы по новой коронавирусной инфекции
 				</a>
+				<a target="_blank" href="http://detbol8.ru/files/downloads/price.pdf">
+					Платные услуги
+				</a>
 			</div>
 		</div>
 	);

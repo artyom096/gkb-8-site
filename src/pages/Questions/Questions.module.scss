@@ -1,0 +1,25 @@
+.wrapper {
+	margin: 0 60px;
+	h4 {
+		margin: 30px auto;
+		margin-bottom: 30px;
+		font-weight: bold;
+		border-bottom: 2px solid #008b8b;
+		width: 350px;
+		text-align: center;
+		font-size: 1.75rem;
+		text-transform: uppercase;
+	}
+
+	.button {
+		cursor: pointer;
+		background-color: #008b8b;
+		opacity: 0.8;
+		color: white;
+	}
+
+	.button:hover {
+		background-color: #fc7e23fe;
+		transition: all 0.2s ease;
+	}
+}

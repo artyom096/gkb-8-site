@@ -1,0 +1,50 @@
+.wrapper {
+	margin: 0 60px;
+	h4 {
+		margin: 30px auto;
+		margin-bottom: 30px;
+		font-weight: bold;
+		border-bottom: 2px solid #008b8b;
+		width: 350px;
+		text-align: center;
+		font-size: 1.75rem;
+		text-transform: uppercase;
+	}
+
+	.cardHeader {
+		padding: 0;
+	}
+	.toggle {
+		padding: 0;
+		margin: 0;
+	}
+
+	button {
+		color: black;
+		width: 100%;
+		text-align: left;
+		text-decoration: none;
+		border: none;
+	}
+
+	button:hover {
+		color: #008b8b;
+		text-decoration: none;
+	}
+
+	button:active {
+		border: none;
+		outline: none;
+	}
+
+	button:focus {
+		outline: none !important;
+		border: none !important;
+		text-decoration: none;
+	}
+
+	thead {
+		background-color: #008b8b;
+		color: white;
+	}
+}

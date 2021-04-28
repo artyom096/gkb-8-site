@@ -9,7 +9,7 @@ export const About: React.FC = () => {
 			<h4>О больнице</h4>
 			<div className={classes.mainBlock}>
 				<img
-					src="https://lh3.googleusercontent.com/proxy/BEnT0u0gZy2d3NNagZfyoTB9NA-izWTSt3S21Sj8I014el8j2q1ovppInUyraQM8e0FPA0aXhTxhTc-ifkRq4saGXvf2kP7GHH0nYVygR2V8NtVsxZpVocSby-C2DnEuc-ajonauprBZ1ltzOAGcANOzYSTiiQ"
+					src="https://lh3.googleusercontent.com/proxy/7oO9Gs_84AWASPld6nTNsKemxmTqEc-ouhNbZMJ7NIEMccm7-L9l6bn1ZCGNOp-W1tTKix_FOSe5fqFWvyHkU8OeXijTMIMHLRUa"
 					alt="Персонал больницы"
 				/>
 				<p>

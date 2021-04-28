@@ -1,5 +1,6 @@
 import classes from './News.module.scss';
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const News = () => {
 	return (
@@ -52,7 +53,9 @@ export const News = () => {
 							</p>
 						</div>
 					</div>
-					<button>Все новости</button>
+					<button>
+						<NavLink to="/news">Все новости</NavLink>
+					</button>
 				</div>
 			</div>
 		</div>

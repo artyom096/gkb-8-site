@@ -1,0 +1,63 @@
+.wrapper {
+	margin: 0 60px;
+	box-sizing: border-box;
+	h4 {
+		margin: 30px auto;
+		margin-bottom: 30px;
+		font-weight: bold;
+		border-bottom: 2px solid #008b8b;
+		width: 350px;
+		text-align: center;
+		font-size: 1.75rem;
+		text-transform: uppercase;
+	}
+
+	.departments {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+
+		.item {
+			text-align: justify;
+			width: 33.3333%;
+			padding: 15px;
+			margin-bottom: 20px;
+			position: relative;
+
+			.title {
+				margin-top: 10px;
+				font-weight: bold;
+				font-size: 17px;
+			}
+
+			img {
+				width: 100%;
+				height: 200px;
+			}
+
+			.subtitle {
+				margin-bottom: 30px;
+			}
+
+			button {
+				position: absolute;
+				bottom: 0;
+				border: none;
+				margin-top: 10px;
+				padding: 5px;
+				background-color: #008b8b;
+				border-radius: 5px;
+				width: 100px;
+				a {
+					text-decoration: none;
+					color: white;
+				}
+			}
+
+			button:hover {
+				background-color: #fc7e23fe;
+				transition: all 0.2s ease;
+			}
+		}
+	}
+}
